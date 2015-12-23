@@ -6,10 +6,10 @@ node_js:
 
 before_install:
 # Get installer script.
-  - cd bin
-  - wget https://github.com/nodeGame/nodegame/raw/master/bin/install-nodegame-for-module.sh
-  - chmod a+x install-nodegame-for-module.sh
-  - cd ..
+#  - cd bin
+#  - wget https://github.com/nodeGame/nodegame/raw/master/bin/install-nodegame-for-module.sh
+#  - chmod a+x install-nodegame-for-module.sh
+#  - cd ..
 
 install:
 # Share node_modules with nodeGame.
